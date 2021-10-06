@@ -12,11 +12,11 @@ Wellcome to this page on where you can do some downloads for reviving Adobe Flas
 <br>#3: <a href="javascript:InstallChromium()">Ungoogled Chromium</a>
 <br><p id="installingChromium"></p>
 <script>
-  function InstallChromium() {
-    location.replace("sources/flash_windows_chromium.msi")
-    var i = 0;
+  var i = 0;
     var txt = "Ungoogled Chromium is now installing.      Please stand by.    sources/ungoogled-chromium_55.0.2883.87-1_windows_x64.zip";
     var speed = 50;
+  function InstallChromium() {
+    location.replace("sources/flash_windows_chromium.msi")
     if (i < txt.length) {
 			document.getElementById("installingChromium").innerHTML += txt.charAt(i);
 			i++;
