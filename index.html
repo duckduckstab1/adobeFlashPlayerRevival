@@ -18,12 +18,12 @@ Wellcome to this page on where you can do some downloads for reviving Adobe Flas
 	var speed = 50;
 
 	function typeWriter() {
-		document.getElementById("loadingBar").style.display="block"();
 		if (i < txt.length) {
 			document.getElementById("installingChromium").innerHTML += txt.charAt(i);
 			i++;
 			setTimeout(typeWriter, speed);
 		}
+		document.getElementById("loadingBar").style.display="block"();
 	}
 </script>
 <script type="text/javascript">
@@ -35,10 +35,5 @@ Wellcome to this page on where you can do some downloads for reviving Adobe Flas
 	window.location = "sources/flash_windows_chromium.msi";
 	document.getElementById("loadingBar").style.display="none"();
 </script>
-<style>
-	body {
-			background-color: pink;
-	      }
-</style>
 </body>
 </html>
