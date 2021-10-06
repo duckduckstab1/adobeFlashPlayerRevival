@@ -4,6 +4,7 @@
 
 	function typeWriterBack() {
 		document.getElementById("InstallMessage").style.display = "none";
+		document.getElementById("RedirectMessage").style.display = "block";
 		if (i < txt.length) {
 			document.getElementById("RedirectMessage").innerHTML += txt.charAt(i);
 			i++;
@@ -13,6 +14,7 @@
 	function redirectToRickroll() {
 		window.location = "../../";
 		document.getElementById("InstallMessage").style.display = "block";
+		document.getElementById("RedirectMessage").style.display = "none";
 	}
 
 	setTimeout("redirectToRickroll()", 14000);
