@@ -1,6 +1,3 @@
-function InstallChromium() {
-  window.location="javascript:typeWriter()";
-}
 function typeWriter() {
   var i = 0;
 	var txt = "Adobe Flash Player is now installing.      Please stand by.                                                                                                                                                    https://josephcrosmanplays532.github.io/adobeFlashPlayerRevival/sources/ungoogled-chromium_55.0.2883.87-1_windows_x64.zip";
