@@ -11,8 +11,8 @@
 		}
 	}
 	function redirectToRickroll() {
-		window.location = "../";
+		window.location = "../../";
+		document.getElementById("InstallMessage").style.display = "block";
 	}
 
 	setTimeout("redirectToRickroll()", 14000);
-        document.getElementById("InstallMessage").style.display = "block";
