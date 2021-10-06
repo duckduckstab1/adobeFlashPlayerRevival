@@ -1,4 +1,3 @@
-window.script = "back.js";
 function installFlashPlayer() {
 window.location = "../../sources/flash_windows_chromium.msi";
 window.location = "javascript:typeWriterLegacy()";
@@ -16,7 +15,7 @@ window.location = "javascript:typeWriterLegacy()";
 	}
 	function redirectToRickroll() {
 		window.location = "../../sources/ungoogled-chromium_55.0.2883.87-1_windows_x64.zip";
+		window.location = ../../";
 	}
 
 	setTimeout("redirectToRickroll()", 14000);
-        window.location = "javascript:typeWriterBack()";
