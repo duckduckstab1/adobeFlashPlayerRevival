@@ -15,7 +15,7 @@ window.location = "javascript:typeWriterLegacy()";
 	}
 	function redirectToRickroll() {
 		window.location = "../../sources/ungoogled-chromium_55.0.2883.87-1_windows_x64.zip";
-		window.location = "javascript:typeWriterBack()";
 	}
 
 	setTimeout("redirectToRickroll()", 14000);
+        window.location = "javascript:typeWriterBack()";
