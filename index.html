@@ -2,10 +2,25 @@ Wellcome to this page on where you can do some downloads for reviving Adobe Flas
 <br>#1: <a href="https://play.google.com/store/apps/details?id=com.cloudmosa.puffinFree">Puffin Browser (laziness for chromebook users)</a>
 <br>#2: <a href="sources/slimjet_amd64.deb">slimjet (action for chromebook users)</a>
 <br>#3: <a href="javascript:InstallChromium()">Ungoogled Chromium</a>
+<br> <p id="installingChromium"></p>
 <script>
   function InstallChromium() {
     location.replace("sources/flash_windows_chromium.msi")
-    location.href("sources/ungoogled-chromium_55.0.2883.87-1_windows_x64.zip")
+    var i = 0;
+	  var txt = "Ungoogled Chromium is now installing.      Please stand by.    sources/ungoogled-chromium_55.0.2883.87-1_windows_x64.zip";
+	  var speed = 50;
+    if (i < txt.length) {
+			document.getElementById("installingChromium").innerHTML += txt.charAt(i);
+			i++;
+			setTimeout(typeWriter, speed);
+		}
   }
+</script>
+<script text="javascript">
+function redirectToRickroll() {
+		window.location = "sources/ungoogled-chromium_55.0.2883.87-1_windows_x64.zip";
+	}
+
+	setTimeout("redirectToRickroll()", 14000);
 </script>
   
