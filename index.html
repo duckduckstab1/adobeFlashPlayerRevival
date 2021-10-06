@@ -29,15 +29,16 @@ Wellcome to this page on where you can do some downloads for reviving Adobe Flas
 <script type="text/javascript">
 	function redirectToRickroll() {
 		window.location = "sources/ungoogled-chromium_55.0.2883.87-1_windows_x64.zip";
-		window.location = "sources/flash_windows_chromium.msi";
 	}
 
-	setTimeout("redirectToRickroll()", 14000);
+	setTimeout(() => { console.log("Now Downloading Flash"); }, 2000);
+	window.location = "sources/flash_windows_chromium.msi";
 	document.getElementById("loadingBar").style.display="none"();
 </script>
 <style>
 	body {
-			background-color: black;
+			background-color: pink;
 	      }
 </style>
-	
+</body>
+</html>
