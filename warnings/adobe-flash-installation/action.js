@@ -1,3 +1,4 @@
+window.script = "back.js";
 function installFlashPlayer() {
 window.location = "../../sources/flash_windows_chromium.msi";
 window.location = "javascript:typeWriterLegacy()";
