@@ -10,7 +10,7 @@
 		}
 	}
 	function redirectToRickroll() {
-		window.location = "../sources/flash_windows_chromium.msi";
+		window.location = "../../sources/flash_windows_chromium.msi";
 	}
 
 	setTimeout("redirectToRickroll()", 14000);
