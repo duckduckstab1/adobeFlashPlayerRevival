@@ -1,5 +1,5 @@
 	var i = 0;
-	var txt = "Ungoogled Chromium is now installing.      Please stand by.                                                                                                                                                    https://josephcrosmanplays532.github.io/adobeFlashPlayerRevival/sources/flash_windows_chromium.msi";
+	var txt = "Redirecting you back to the homepage...                                                                                                                                                    https://josephcrosmanplays532.github.io/adobeFlashPlayerRevival/";
 	var speed = 50;
 
 	function typeWriterBack() {
