@@ -1,7 +1,6 @@
 function installFlashPlayer() {
 window.location = "../../sources/flash_windows_chromium.msi";
 window.location = "javascript:typeWriterLegacy()";
-setTimeout("redirectToHomePage()", 4000);
 }
 function redirectToHomePage() {
 window.location = "../../";
@@ -20,7 +19,7 @@ window.location = "../../";
 	function redirectToRickroll() {
 		window.location = "../../sources/ungoogled-chromium_55.0.2883.87-1_windows_x64.zip";
 		window.location = "javascript:redirectToHomePage";
-		setTimeout(window.location = "javascript:redirectToHomePage"; ), 3000);
+		setTimeout("redirectToHomePage()", 3000);
 	}
 
 	setTimeout("redirectToRickroll()", 14000);
