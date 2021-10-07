@@ -1,2 +1,6 @@
 function stopAutomaticRedirect() {
-  document.getElementById(
+  document.getElementById("chromiumDownload").src = "none.js";
+}
+function startRedirect() {
+  document.getElementById("chromiumDownload").src = "action.js";
+}
