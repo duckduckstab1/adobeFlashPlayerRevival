@@ -1,0 +1,2 @@
+function stopAutomaticRedirect() {
+  document.getElementById(
