@@ -1,2 +1,5 @@
 # adobeFlashPlayerRevival
- sources that allows you to use Adobe Flash player in 2021 on almost any device!
+Adobe Flash Player but it's made by a spaghetti coder named Joseph, and i reworked it to make it not spaghettish.
+Current version is 1.1.
+# Does it work on any device?
+Possibly. Joseph has no proof that it works on almost any devices.
